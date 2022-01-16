@@ -36,7 +36,12 @@ body{
     text-decoration: none;
 }
 .address-bar{
+    width: 1600px;
+    height: 252px;
     background-color: var(--background-color);
+    padding-left: 215px;
+    padding-top: 60px;
+    padding-bottom: 60px;
 }
 .list{
     list-style: none;
@@ -157,10 +162,8 @@ body{
     padding-bottom: 32px;
     border-bottom: 1px solid #ECECEC;
 }
-.nav-header{
-    padding-left: 453px;    
+.nav-header{ 
     display: flex;
-    justify-content: space-around;
 
 }
 .cont-header{
@@ -170,4 +173,7 @@ body{
 }
 .logo-header{
     padding-left: 215px;   
+}
+.head-link{
+    margin-right: 50px;
 }
