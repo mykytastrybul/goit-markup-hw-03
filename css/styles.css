@@ -8,10 +8,13 @@
     --logo-color: #000;
     --contact-footer-color: #FFFFFF99;
 }
+html{
+    box-sizing: border-box;
+}
 *,
 *::before,
 *::after {
-    box-sizing: border-box;
+    box-sizing: inherit;
 }
 body{
     color: var(--primary-text-color);
