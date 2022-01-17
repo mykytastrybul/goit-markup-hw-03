@@ -21,6 +21,14 @@ body{
     font-family: Roboto, sans-serif;
     letter-spacing: 0.03em;
 }
+h1,
+h2,
+h3,
+p,
+ul {
+    padding: 0;
+    margin: 0;
+}
 .link-studio-header{
     text-decoration: none;
     font-family: Raleway, cursive;
@@ -55,31 +63,12 @@ body{
     list-style: none;
 
 }
-.button{
-    
-    display: inline-block;
-    border-radius: 4px;
-    border-color: transparent;
-    padding: 6px 22px;
-    height: 38px;
-    background-color: var(--button-bg-color);
-    cursor: pointer;
-    font-family: inherit;
-
-}
 .big-button,
 .button:hover,
 .button:focus{
     color: var(--white-color);
     background-color: var(--accent-color);
     box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
-}
-.big-button{
-
-    height: 50px;
-    padding: 10px 32px;
-    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
-    margin: 0 auto;
 }
 .navigation,
 .contact{
@@ -119,9 +108,6 @@ body{
     text-align: center;
     letter-spacing: 0.06em;
     text-transform: uppercase;
-    width: 696px;
-    height: 120px;
-    margin: 0 auto;
 
 }
 .feature-first{
@@ -148,6 +134,14 @@ body{
     color: var(--second-text-color);
 }
 .button{
+    display: inline-block;
+    border-radius: 4px;
+    border-color: transparent;
+    padding: 6px 22px;
+    height: 38px;
+    background-color: var(--button-bg-color);
+    cursor: pointer;
+    font-family: inherit;
     font-weight: 500;
     font-size: 16px;
     line-height: 1.62;
@@ -155,15 +149,18 @@ body{
     margin-right: 8px;
 }
 .big-button{
+    border-radius: 4px;
+    border-color: transparent;
+    height: 50px;
+    padding: 10px 32px;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
     font-weight: bold;
     font-size: 16px;
     line-height: 1.87;
-    display: flex;
     align-items: center;
     text-align: center;
     letter-spacing: 0.06em;
-    margin-left: 700px;
-
+    margin-top: 30px;
 }
 .group-first{
     font-weight: bold;
@@ -190,26 +187,40 @@ body{
     align-items: center;
 }
 .box-header{
-    width: 1600px;
-    height: 80px;
-    padding-top: 32px;
-    padding-bottom: 32px;
+    display: flex;
+    align-items: center;
     border-bottom: 1px solid #ECECEC;
+}
+.nav{
+    display: flex;
+    align-items: center;
 }
 .nav-header{ 
     display: flex;
-
+    align-items: center;
+    margin-left: 93px;
 }
 .cont-header{
-    padding-right: 215px;
     display: flex;
-    
+    align-items: center;
+    margin-left: auto;
 }
-.logo-header{
-    padding-left: 215px;   
+.nav .logo-header{
+    display: block;
+    padding-top: 24px;
+    padding-bottom: 25px;  
 }
 .head-link{
     margin-right: 50px;
+    display: block;
+    padding-top: 32px;
+    padding-bottom: 32px;
+}
+.footer-box{
+    background-color: var(--background-color);
+    max-width: 1600px;
+    margin-left: auto;
+    margin-right: auto;
 }
 .fl{
     margin-top: 20px;
@@ -217,20 +228,19 @@ body{
 .fl-con{
     margin-top: 9px;
 }
-.container{
+.container {
     width: 1200px;
-    display: block;
-}
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 15px;
+    padding-right: 15px;
+    }
 .group{
     display: flex;
     flex-wrap: wrap;
     /* width: 1200px; */
     margin-left: 215px;
     margin-top: 50px;
-}
-.section{
-    padding-top: 94px;
-    padding-bottom: 94px;
 }
 .portfolio-buttons{
     display: flex;
@@ -244,8 +254,10 @@ body{
     margin-right: 30px;
 }
 .main-theme{
-    width: 1600px;
-    height: 600px;
     background-color: var(--background-color);
-    box-sizing: border-box;
+    max-width: 1600px;
+    text-align: center;
+    padding: 200px;
+    margin-left: auto;
+    margin-right: auto;
 }
