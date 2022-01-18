@@ -190,8 +190,9 @@ ul {
     margin-top: 30px;
 }
 .group-img-text{
-    padding: 20px 25px;
+    padding: 20px 24px;
     border: 1px solid #EEEEEE;
+    margin-top: -4px;
 }
 .group-first{
     font-weight: bold;
