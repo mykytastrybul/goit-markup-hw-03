@@ -16,6 +16,19 @@ html{
 *::after {
     box-sizing: inherit;
 }
+.visually-hidden{
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    border: 0;
+    padding: 0;
+    
+    white-space: nowrap;
+    clip-path: inset(100%);
+    clip: rect(0 0 0 0);
+    overflow: hidden;
+}
 body{
     color: var(--primary-text-color);
     font-family: Roboto, sans-serif;
@@ -28,6 +41,17 @@ p,
 ul {
     padding: 0;
     margin: 0;
+}
+.container {
+    width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+.section{
+    padding-top: 94px;
+    padding-bottom: 94px;
 }
 .link-studio-header{
     text-decoration: none;
@@ -115,23 +139,28 @@ ul {
     font-size: 14px;
     line-height: 1.14;
     text-transform: uppercase;
+    margin-bottom: 10px;
 }
 .feature-second{
     font-size: 14px;
     line-height: 1.71;
     color: var(--second-text-color);
+    width: 270px;
 }
 .team-first{
     font-weight: 500;
     font-size: 16px;
     line-height: 1.18;
     text-align: center;
+    padding-top: 30px;
+    padding-bottom: 10px;
 }
 .team-second{
     font-size: 16px;
     line-height: 1.18;
     text-align: center;
     color: var(--second-text-color);
+    padding-bottom: 30px;
 }
 .button{
     display: inline-block;
@@ -146,6 +175,8 @@ ul {
     font-size: 16px;
     line-height: 1.62;
     text-align: center;
+}
+.port-btn{
     margin-right: 8px;
 }
 .big-button{
@@ -185,10 +216,9 @@ ul {
     display: flex;
     justify-content: space-between;
     align-items: center;
-}
-.box-header{
-    display: flex;
-    align-items: center;
+    max-width: 1600px;
+    margin-left: auto;
+    margin-right: auto;
     border-bottom: 1px solid #ECECEC;
 }
 .nav{
@@ -228,30 +258,23 @@ ul {
 .fl-con{
     margin-top: 9px;
 }
-.container {
-    width: 1200px;
-    margin-left: auto;
-    margin-right: auto;
-    padding-left: 15px;
-    padding-right: 15px;
-    }
+
 .group{
     display: flex;
     flex-wrap: wrap;
-    /* width: 1200px; */
-    margin-left: 215px;
-    margin-top: 50px;
 }
 .portfolio-buttons{
     display: flex;
     flex-wrap: nowrap;
-    align-items: center;
-    padding-left: 517px;
+    justify-content: center;
+}
+.portfolio-btn-box{
+    margin-bottom: 50px;
 }
 .images-portfolio{
     border: 1px solid #EEEEEE;
-    margin-top: 30px;
-    margin-right: 30px;
+    margin-bottom: 30px;
+    margin-right: auto;
 }
 .main-theme{
     background-color: var(--background-color);
@@ -260,4 +283,46 @@ ul {
     padding: 200px;
     margin-left: auto;
     margin-right: auto;
+}
+.feature{
+    display: flex;
+    /* margin-top: 94px; */
+}
+.feature-list{
+    margin-left: 30px;
+}
+/* .about{
+    margin-top: 94px;
+} */
+.about-images-list{
+    margin-top: 50px;
+    display: flex;
+}
+.about-image{
+    margin-left: 30px;
+}
+.team-box{
+    background-color: var(--button-bg-color);
+    /* margin-top: 94px; */
+    /* padding-top: 94px;
+    padding-bottom: 94px; */
+    width: 1600px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.team{
+    margin-top: 50px;
+    display: flex;
+    
+}
+.team-item{
+    margin-left: 30px;
+}
+.team-item-first,
+.team-item{
+    background-color: #FFFFFF;
+    /* material shadow v1 */
+    
+    box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
+    border-radius: 0px 0px 4px 4px;
 }
