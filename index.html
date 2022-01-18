@@ -9,7 +9,7 @@
   <link rel="stylesheet" href="css/styles.css"/>
 </head>
 <body>
-<header>
+<header class="header">
   <div class="box-header container">
     <nav class="nav">
       <a href="https://s3bull.github.io/goit-markup-hw-03/index.html" class="link-studio-header logo-header"><span class="accent">Web</span>Studio</a>
@@ -28,29 +28,35 @@
 </header>
 <main>
   <section class="main-theme section">
-    <h1 class="white-text">Эффективные решения<br>для вашего бизнеса</h1>
-    <button type="button" class="big-button">Заказать услугу</button>
+    <div class="container">
+      <h1 class="white-text">Эффективные решения<br>для вашего бизнеса</h1>
+      <button type="button" class="big-button">Заказать услугу</button>
+    </div>
   </section>
-  <section class="container section">
+  <section class="section">
     <!-- Белый блок -->
-    <ul class="list feature">
-      <li><h3 class="feature-first">Внимание к деталям</h3>
-      <p class="feature-second">Идейные соображения, а также начало повседневной работы по формированию позиции.</p></li>
-      <li class="feature-list"><h3 class="feature-first">Пунктуальность</h3>
-      <p class="feature-second">Задача организации, в особенности же рамки и место обучения кадров влечет за собой.</p></li>
-      <li class="feature-list"><h3 class="feature-first">Планирование</h3>
-      <p class="feature-second">Равным образом консультация с широким активом в значительной степени обуславливает.</p></li>
-      <li class="feature-list"><h3 class="feature-first">Современные технологии</h3>
-      <p class="feature-second">Значимость этих проблем настолько очевидна, что реализация плановых заданий.</p></li>
-    </ul>
+    <div class="container">
+      <ul class="list feature">
+        <li><h3 class="feature-first">Внимание к деталям</h3>
+        <p class="feature-second">Идейные соображения, а также начало повседневной работы по формированию позиции.</p></li>
+        <li class="feature-list"><h3 class="feature-first">Пунктуальность</h3>
+        <p class="feature-second">Задача организации, в особенности же рамки и место обучения кадров влечет за собой.</p></li>
+        <li class="feature-list"><h3 class="feature-first">Планирование</h3>
+        <p class="feature-second">Равным образом консультация с широким активом в значительной степени обуславливает.</p></li>
+        <li class="feature-list"><h3 class="feature-first">Современные технологии</h3>
+        <p class="feature-second">Значимость этих проблем настолько очевидна, что реализация плановых заданий.</p></li>
+      </ul>
+    </div>
   </section>
-  <section class="container about section">
-    <h2 class="heading">Чем мы занимаемся</h2>
-    <ul class="list about-images-list">
-      <li><img src="images/img1.jpg" alt="Планшет с клавиатурой" width="370"/>
-      <li class="about-image"><img src="images/img2.jpg" alt="Ноутбук и телефон" width="370"/>
-      <li class="about-image"><img src="images/img3.jpg" alt="Шестиугольник ргб" width="370"/>
-    </ul>
+  <section class="about section">
+    <div class="container">
+      <h2 class="heading">Чем мы занимаемся</h2>
+      <ul class="list about-images-list">
+        <li><img src="images/img1.jpg" alt="Планшет с клавиатурой" width="370"/>
+        <li class="about-image"><img src="images/img2.jpg" alt="Ноутбук и телефон" width="370"/>
+        <li class="about-image"><img src="images/img3.jpg" alt="Шестиугольник ргб" width="370"/>
+      </ul>
+    </div>
   </section>
   <section class="team-box section">
     <div class="container">
@@ -59,23 +65,31 @@
     <ul class="list team">
       <li class="team-item-first">
         <img src="images/img4.jpg" alt="Член команды1" width="270" />
+        <div class="team-desc">
           <h3 class="team-first">Игорь Демьяненко</h3> 
           <p class="team-second">Product Designer</p>
+        </div>
       </li>
       <li class="team-item">
         <img src="images/img5.jpg" alt="Член команды2" width="270" />
+        <div class="team-desc">
           <h3 class="team-first">Ольга Репина</h3> 
           <p class="team-second">Frontend Developer</p>
+        </div>
       </li>
       <li class="team-item">
         <img src="images/img6.jpg" alt="Член команды3" width="270" />
+        <div class="team-desc">
           <h3 class="team-first">Николай Тарасов</h3> 
           <p class="team-second">Marketing</p>
+        </div>
       </li>
       <li class="team-item">
         <img src="images/img7.jpg" alt="Член команды4" width="270" />
+        <div class="team-desc">
           <h3 class="team-first">Михаил Ермаков</h3> 
           <p class="team-second">UI Designer</p>
+        </div>
       </li>
     </ul>
     </div>
