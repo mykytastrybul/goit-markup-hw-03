@@ -177,6 +177,7 @@ ul {
     margin-right: 8px;
 }
 .big-button{
+    cursor: pointer;
     border-radius: 4px;
     border-color: transparent;
     height: 50px;
