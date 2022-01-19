@@ -78,8 +78,7 @@ ul {
 .address-bar{
     max-width: 1600px;
     background-color: var(--background-color);
-    padding-top: 60px;
-    padding-bottom: 60px;
+
 }
 .list{
     list-style: none;
@@ -115,6 +114,8 @@ ul {
 .fact-adress{
     color: var(--white-color);
     font-style: normal;
+    font-size: 14px;
+    line-height: 1.7;
 }
 .heading{
     font-weight: bold;
@@ -209,6 +210,8 @@ ul {
 .contact-footer{
     color: var(--contact-footer-color);
     font-style: normal;
+    font-size: 14px;
+    line-height: 1.7;
 }
 .header{
     max-width: 1600px;
@@ -242,16 +245,25 @@ ul {
     padding-bottom: 25px;  
 }
 .head-link{
-    margin-right: 50px;
     display: block;
     padding-top: 32px;
     padding-bottom: 32px;
+}
+.head-cont{
+    display: block;
+    padding-top: 32px;
+    padding-bottom: 32px;
+}
+.head-link-item{
+    margin-right: 50px;
 }
 .footer-box{
     background-color: var(--background-color);
     max-width: 1600px;
     margin-left: auto;
     margin-right: auto;
+    padding-top: 60px;
+    padding-bottom: 60px;
 }
 .fl{
     margin-top: 20px;
